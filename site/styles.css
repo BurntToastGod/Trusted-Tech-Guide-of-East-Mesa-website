@@ -235,6 +235,13 @@ h4 {
   font-size: 13px;
 }
 
+.muted-inline {
+  color: var(--muted);
+  font-weight: 800;
+  font-size: 13px;
+  margin-left: 6px;
+}
+
 .section {
   padding: 34px 0;
 }
