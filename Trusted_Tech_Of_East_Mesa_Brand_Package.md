@@ -1,4 +1,4 @@
-# Trusted Tech Guide of East Mesa — Launch-Ready Brand Package
+# Trusted Tech Of East Mesa — Launch-Ready Brand Package
 
 Tagline to use across assets: **Serving Mesa & the East Valley**  
 Phone: **(480) 788-9159**
@@ -6,7 +6,7 @@ Phone: **(480) 788-9159**
 ---
 
 ## 1) Executive Recommendation
-**Recommended final brand:** **Trusted Tech Guide of East Mesa**  
+**Recommended final brand:** **Trusted Tech Of East Mesa**  
 **Why this works (in plain English):**
 - **Trusted** signals safety (passwords, accounts, scams) and puts families at ease.
 - **Guide** signals teaching + confidence-building (not “repair shop,” not rushed).
@@ -21,9 +21,9 @@ Patient, in-home and remote tech help that helps older adults and families feel 
 ## 2) Name Comparison Table (Record + Rationale)
 | Name option | Strengths | Tradeoffs | Fit |
 |---|---|---|---|
-| **Trusted Tech Guide of East Mesa** (FINAL) | Strong trust, confidence-building “guide,” hyper-local | Slightly longer name | Best overall |
-| Trusted Tech Guide — East Mesa | Clean brand + flexible location lockup | Requires consistent lockup rules | Strong |
-| East Mesa Trusted Tech Guide | Reads naturally; strong local | Slightly less “brand-like” | Strong |
+| **Trusted Tech Of East Mesa** (FINAL) | Strong trust, confidence-building “guide,” hyper-local | Slightly longer name | Best overall |
+| Trusted Tech Of East Mesa | Clean brand + flexible location lockup | Requires consistent lockup rules | Strong |
+| Trusted Tech Of East Mesa | Reads naturally; strong local | Slightly less “brand-like” | Strong |
 | Family Tech Guide | Warm; includes adult children implicitly | Less local; less “trust/safety” explicit | Good |
 | East Valley Digital Guide | Friendly “digital” word; local | Less trust-forward than “Trusted”; broader geography | Good |
 | East Valley Device Help | Very clear; non-intimidating | Less premium/trust positioning | OK |
@@ -77,7 +77,7 @@ These are “concept specs” you (or a designer) can execute in Canva/Illustrat
 - **Icon:** A simple rounded shield outline with a small checkmark inside (no tiny details).
 - **Meaning:** Safe, verified, protected—perfect for scam prevention and account help.
 - **Type:** Rounded, friendly sans-serif (headline font below).
-- **Layout:** Horizontal lockup: `[icon] Trusted Tech Guide of East Mesa` on one line; tagline below.
+- **Layout:** Horizontal lockup: `[icon] Trusted Tech Of East Mesa` on one line; tagline below.
 - **Tagline lockup:** “Serving Mesa & the East Valley” in smaller text below the name.
 - **Best uses:** Yard sign, Google profile image (icon-only), uniforms.
 
@@ -226,7 +226,7 @@ Use these with the phone number and the standard service-area tagline where poss
 ---
 
 ## 11) Google Business Profile (Business Description)
-Trusted Tech Guide of East Mesa provides patient, in-home and remote tech help for older adults and families. We help with smartphones, tablets, computers, Wi‑Fi, printers, smart TVs, passwords, and online accounts. We also offer scam and safety checkups to help you feel safer and more confident using technology. Clear pricing, calm explanations, and practical help—without jargon or pressure.  
+Trusted Tech Of East Mesa provides patient, in-home and remote tech help for older adults and families. We help with smartphones, tablets, computers, Wi‑Fi, printers, smart TVs, passwords, and online accounts. We also offer scam and safety checkups to help you feel safer and more confident using technology. Clear pricing, calm explanations, and practical help—without jargon or pressure.  
 Serving Mesa & the East Valley. Call **(480) 788‑9159**.
 
 ---
@@ -252,7 +252,7 @@ Serving Mesa & the East Valley. Calm, step‑by‑step help with phones, tablets
 
 ## 13) Business Card Copy (Front/Back)
 ### Front
-**Trusted Tech Guide of East Mesa**  
+**Trusted Tech Of East Mesa**  
 **Serving Mesa & the East Valley**  
 Patient, in-home and remote tech help  
 **Call/Text:** (480) 788‑9159
@@ -268,7 +268,7 @@ Passwords & accounts • Scam protection • One‑on‑one lessons
 ---
 
 ## 14) Yard Sign Copy (Big + Simple)
-**Trusted Tech Guide of East Mesa**  
+**Trusted Tech Of East Mesa**  
 **In‑Home Tech Help**  
 Serving Mesa & the East Valley  
 **(480) 788‑9159**
@@ -306,7 +306,7 @@ Serving Mesa & the East Valley
 
 ## 16) Facebook / Nextdoor Bio Text
 ### Short bio (1–2 lines)
-Trusted Tech Guide of East Mesa — patient, in-home and remote tech help for older adults and families. Serving Mesa & the East Valley. Call/Text (480) 788‑9159.
+Trusted Tech Of East Mesa — patient, in-home and remote tech help for older adults and families. Serving Mesa & the East Valley. Call/Text (480) 788‑9159.
 
 ### Medium bio (3–4 lines)
 Patient tech help you can trust—right in your home. I help with phones, tablets, computers, Wi‑Fi, printers, smart TVs, passwords, and online accounts. I also offer scam and safety checkups so you feel safer and more confident. Serving Mesa & the East Valley. Call/Text **(480) 788‑9159**.
@@ -388,23 +388,22 @@ Availability changes quickly—use these as a shortlist to check.
 Use simple prompts that emphasize readability, high contrast, and 1-color compatibility.
 
 ### Prompt set (Logo Concept 1: Shield + check)
-Create a clean, minimal logo for a local service business named “Trusted Tech Guide of East Mesa”. The logo should feel warm, trustworthy, and patient (not corporate). Icon: simple rounded shield outline with a checkmark. Use a high-contrast, senior-friendly design with thick lines, no small details, and a modern rounded sans-serif wordmark. Provide a horizontal lockup and a stacked lockup. Include the tagline “Serving Mesa & the East Valley”. Vector style, flat colors, white background.
+Create a clean, minimal logo for a local service business named “Trusted Tech Of East Mesa”. The logo should feel warm, trustworthy, and patient (not corporate). Icon: simple rounded shield outline with a checkmark. Use a high-contrast, senior-friendly design with thick lines, no small details, and a modern rounded sans-serif wordmark. Provide a horizontal lockup and a stacked lockup. Include the tagline “Serving Mesa & the East Valley”. Vector style, flat colors, white background.
 
 ### Prompt set (Logo Concept 2: Home + Wi‑Fi)
-Design a simple, friendly logo for “Trusted Tech Guide of East Mesa”. Icon: minimal house outline with 2 Wi‑Fi arcs. Style: clean, approachable, easy to read at small sizes, strong contrast, no gradients, no shadows. Use a rounded sans-serif font. Include tagline “Serving Mesa & the East Valley”. Produce icon-only and full lockup.
+Design a simple, friendly logo for “Trusted Tech Of East Mesa”. Icon: minimal house outline with 2 Wi‑Fi arcs. Style: clean, approachable, easy to read at small sizes, strong contrast, no gradients, no shadows. Use a rounded sans-serif font. Include tagline “Serving Mesa & the East Valley”. Produce icon-only and full lockup.
 
 ### Prompt set (Logo Concept 3: Speech bubble + device)
-Generate a minimal, warm logo for “Trusted Tech Guide of East Mesa”. Icon: a speech bubble that frames a simple phone shape. Must look trustworthy and calm, not playful or nerdy. Thick strokes, high contrast, flat vector style, no tiny details. Include tagline “Serving Mesa & the East Valley”. Provide icon-only and horizontal wordmark versions.
+Generate a minimal, warm logo for “Trusted Tech Of East Mesa”. Icon: a speech bubble that frames a simple phone shape. Must look trustworthy and calm, not playful or nerdy. Thick strokes, high contrast, flat vector style, no tiny details. Include tagline “Serving Mesa & the East Valley”. Provide icon-only and horizontal wordmark versions.
 
 ---
 
 ## 20) AI Prompts for Matching Flyer / Brand Mockups
 ### Flyer mockup prompt (clean, senior-friendly)
-Create a clean, high-contrast flyer design for “Trusted Tech Guide of East Mesa” with the tagline “Serving Mesa & the East Valley”. Style: warm, professional, very readable for older adults, plenty of whitespace, large headline, simple icons. Include phone number (480) 788-9159 prominently. Include pricing: $45 first hour, $20 per additional 30 minutes, no travel fee within 15 miles. Include package highlights: New Device Setup $65, Safety Checkup $75, Monthly Check-In $40/month. Avoid jargon. Flat modern design, print-ready layout.
+Create a clean, high-contrast flyer design for “Trusted Tech Of East Mesa” with the tagline “Serving Mesa & the East Valley”. Style: warm, professional, very readable for older adults, plenty of whitespace, large headline, simple icons. Include phone number (480) 788-9159 prominently. Include pricing: $45 first hour, $20 per additional 30 minutes, no travel fee within 15 miles. Include package highlights: New Device Setup $65, Safety Checkup $75, Monthly Check-In $40/month. Avoid jargon. Flat modern design, print-ready layout.
 
 ### Business card mockup prompt
-Design a front/back business card for “Trusted Tech Guide of East Mesa” with tagline “Serving Mesa & the East Valley” and phone number (480) 788-9159. Style: simple, trustworthy, high contrast, readable. Include a short services list: Phones, Tablets, Computers, Wi‑Fi, Printers, Smart TVs, Passwords & Accounts, Scam Safety. Flat design, no clutter.
+Design a front/back business card for “Trusted Tech Of East Mesa” with tagline “Serving Mesa & the East Valley” and phone number (480) 788-9159. Style: simple, trustworthy, high contrast, readable. Include a short services list: Phones, Tablets, Computers, Wi‑Fi, Printers, Smart TVs, Passwords & Accounts, Scam Safety. Flat design, no clutter.
 
 ### Yard sign mockup prompt
-Create a simple yard sign layout: “Trusted Tech Guide of East Mesa” + “In‑Home Tech Help” + “Serving Mesa & the East Valley” + “(480) 788‑9159”. High contrast, large text, minimal icon, readable from a distance.
-
+Create a simple yard sign layout: “Trusted Tech Of East Mesa” + “In‑Home Tech Help” + “Serving Mesa & the East Valley” + “(480) 788‑9159”. High contrast, large text, minimal icon, readable from a distance.

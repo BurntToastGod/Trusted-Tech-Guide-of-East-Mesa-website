@@ -1,6 +1,6 @@
 # After-Visit Summary
 
-Trusted Tech Guide of East Mesa - (480) 788-9159 - Serving Mesa & the East Valley
+Trusted Tech Of East Mesa - (480) 788-9159 - Serving Mesa & the East Valley
 
 Client name:
 Date:

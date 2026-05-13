@@ -1,4 +1,4 @@
-# Trusted Tech Guide of East Mesa — Simple Website
+# Trusted Tech Of East Mesa — Simple Website
 
 This folder contains a single-page static website you can host anywhere.
 

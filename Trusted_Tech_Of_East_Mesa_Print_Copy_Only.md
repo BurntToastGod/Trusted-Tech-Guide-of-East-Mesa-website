@@ -1,4 +1,4 @@
-# Trusted Tech Guide of East Mesa — Print Copy Only
+# Trusted Tech Of East Mesa — Print Copy Only
 
 Tagline: **Serving Mesa & the East Valley**  
 Phone: **(480) 788-9159**
@@ -60,7 +60,7 @@ Serving Mesa & the East Valley
 ---
 
 ## Yard Sign (Copy)
-**Trusted Tech Guide of East Mesa**  
+**Trusted Tech Of East Mesa**  
 **In‑Home Tech Help**  
 Serving Mesa & the East Valley  
 **(480) 788‑9159**
@@ -71,7 +71,7 @@ Optional small line (if space): Phones • Wi‑Fi • Computers • Scam Safety
 
 ## Business Card (Copy)
 ### Front
-**Trusted Tech Guide of East Mesa**  
+**Trusted Tech Of East Mesa**  
 **Serving Mesa & the East Valley**  
 Patient, in‑home and remote tech help  
 **Call/Text:** (480) 788‑9159
