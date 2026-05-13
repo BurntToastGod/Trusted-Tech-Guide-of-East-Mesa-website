@@ -239,6 +239,18 @@ h4 {
   padding: 34px 0;
 }
 
+.family-callout {
+  margin-top: 16px;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  color: var(--muted);
+}
+.family-callout strong {
+  color: var(--text);
+}
+
 .section.alt {
   background: #ffffff;
   border-top: 1px solid var(--border);
@@ -417,4 +429,3 @@ h4 {
     width: 100%;
   }
 }
-
