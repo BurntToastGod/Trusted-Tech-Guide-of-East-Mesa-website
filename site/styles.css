@@ -1,16 +1,35 @@
 :root {
-  /* Palette A — “Trust Blue + Warm Support” */
+  /* Palette A — “Trust Blue + Warm Support” (Premium + modern refresh) */
   --primary: #1f5eff;
+  --primary-2: #2b7bff;
   --primary-dark: #1146d6;
-  --text: #0f1b2d;
-  --muted: #3c4a63;
   --accent: #ffb15c;
+
+  /* Premium neutral scale */
+  --ink: #0b1220;
+  --ink-2: #12213a;
+  --muted: #334461;
+  --muted-2: #4a5b78;
+  --border: rgba(15, 27, 45, 0.12);
+  --border-strong: rgba(15, 27, 45, 0.18);
+
+  /* Background + surfaces */
   --bg: #f7fafc;
-  --card: #ffffff;
-  --border: #e6ecf2;
-  --shadow: 0 10px 30px rgba(15, 27, 45, 0.08);
-  --radius: 16px;
-  --radius-sm: 12px;
+  --bg-2: #eef4ff;
+  --card: rgba(255, 255, 255, 0.92);
+  --card-solid: #ffffff;
+
+  /* Shadows */
+  --shadow-sm: 0 6px 18px rgba(11, 18, 32, 0.08);
+  --shadow: 0 14px 40px rgba(11, 18, 32, 0.1);
+  --shadow-strong: 0 18px 55px rgba(11, 18, 32, 0.14);
+
+  /* Radii */
+  --radius: 18px;
+  --radius-sm: 14px;
+
+  /* Focus ring */
+  --focus: 0 0 0 4px rgba(31, 94, 255, 0.22);
 }
 
 * {
@@ -25,8 +44,10 @@ body {
 body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  color: var(--text);
-  background: var(--bg);
+  color: var(--ink);
+  background: radial-gradient(1200px 700px at 20% -10%, rgba(31, 94, 255, 0.14), transparent 55%),
+    radial-gradient(900px 600px at 80% 0%, rgba(255, 177, 92, 0.12), transparent 60%),
+    linear-gradient(180deg, var(--bg-2), var(--bg));
   line-height: 1.5;
 }
 
@@ -57,7 +78,7 @@ img {
 .site-header {
   position: sticky;
   top: 0;
-  background: rgba(247, 250, 252, 0.9);
+  background: rgba(247, 250, 252, 0.75);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
   z-index: 10;
@@ -96,15 +117,15 @@ img {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 12px 14px;
+  padding: 12px 16px;
   border-radius: 999px;
   border: 1px solid transparent;
   text-decoration: none;
-  font-weight: 700;
-  color: var(--text);
-  background: #fff;
+  font-weight: 800;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.9);
   box-shadow: none;
-  transition: transform 120ms ease, background 120ms ease, border-color 120ms ease;
+  transition: transform 120ms ease, background 120ms ease, border-color 120ms ease, box-shadow 120ms ease;
 }
 .button:hover {
   transform: translateY(-1px);
@@ -113,14 +134,15 @@ img {
   transform: translateY(0px);
 }
 .button.primary {
-  background: var(--primary);
+  background: linear-gradient(180deg, var(--primary-2), var(--primary));
   color: #fff;
+  box-shadow: 0 10px 26px rgba(31, 94, 255, 0.28);
 }
 .button.primary:hover {
-  background: var(--primary-dark);
+  background: linear-gradient(180deg, #3a87ff, var(--primary-dark));
 }
 .button.secondary {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.92);
   border-color: var(--border);
 }
 .button.ghost {
@@ -131,8 +153,14 @@ img {
   width: 100%;
 }
 
+.button:focus-visible,
+.faq summary:focus-visible {
+  outline: none;
+  box-shadow: var(--focus);
+}
+
 .hero {
-  padding: 34px 0 10px;
+  padding: 42px 0 14px;
 }
 
 .hero-grid {
@@ -144,16 +172,16 @@ img {
 
 h1 {
   font-family: Nunito, Inter, system-ui, sans-serif;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 1.06;
   margin: 0 0 12px;
   font-size: clamp(30px, 4vw, 46px);
 }
 
 h2 {
   font-family: Nunito, Inter, system-ui, sans-serif;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: -0.02em;
   margin: 0 0 8px;
   font-size: clamp(22px, 2.4vw, 30px);
@@ -191,30 +219,32 @@ h4 {
 }
 
 .pill {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.85);
   border: 1px solid var(--border);
   border-radius: 999px;
   padding: 8px 10px;
-  font-weight: 700;
-  color: var(--text);
+  font-weight: 800;
+  color: var(--ink-2);
+  box-shadow: var(--shadow-sm);
 }
 
 .hero-card {
-  background: var(--card);
+  background: radial-gradient(900px 260px at 30% 0%, rgba(31, 94, 255, 0.1), transparent 55%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.9));
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 16px;
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-strong);
 }
 
 .card-title {
-  font-weight: 800;
+  font-weight: 900;
   margin-bottom: 8px;
 }
 
 .divider {
   height: 1px;
-  background: var(--border);
+  background: rgba(15, 27, 45, 0.1);
   margin: 12px 0;
 }
 
@@ -237,29 +267,30 @@ h4 {
 
 .muted-inline {
   color: var(--muted);
-  font-weight: 800;
+  font-weight: 900;
   font-size: 13px;
   margin-left: 6px;
 }
 
 .section {
-  padding: 34px 0;
+  padding: 40px 0;
 }
 
 .family-callout {
   margin-top: 16px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.92);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 14px 16px;
   color: var(--muted);
+  box-shadow: var(--shadow-sm);
 }
 .family-callout strong {
-  color: var(--text);
+  color: var(--ink);
 }
 
 .section.alt {
-  background: #ffffff;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.94));
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
 }
@@ -289,28 +320,31 @@ h4 {
 }
 
 .card {
-  background: var(--card);
+  background: rgba(255, 255, 255, 0.92);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 16px;
+  box-shadow: var(--shadow-sm);
 }
 
 .price-card {
-  background: linear-gradient(180deg, #ffffff, #fbfdff);
+  background: radial-gradient(900px 260px at 30% 0%, rgba(31, 94, 255, 0.08), transparent 55%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.92));
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 16px;
+  box-shadow: var(--shadow);
 }
 
 .price-title {
-  font-weight: 800;
-  color: var(--text);
+  font-weight: 900;
+  color: var(--ink-2);
   margin-bottom: 8px;
 }
 
 .price-amount {
   font-family: Nunito, Inter, system-ui, sans-serif;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 34px;
   letter-spacing: -0.02em;
   margin-bottom: 6px;
@@ -318,7 +352,7 @@ h4 {
 
 .price-amount span {
   font-family: Inter, system-ui, sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 14px;
   color: var(--muted);
   margin-left: 6px;
@@ -342,16 +376,17 @@ h4 {
 }
 
 .faq details {
-  background: var(--card);
+  background: rgba(255, 255, 255, 0.92);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 12px 14px;
   margin-bottom: 10px;
+  box-shadow: var(--shadow-sm);
 }
 
 .faq summary {
   cursor: pointer;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .faq-body {
@@ -378,15 +413,17 @@ h4 {
 }
 
 .contact-card {
-  background: #ffffff;
+  background: radial-gradient(900px 260px at 30% 0%, rgba(255, 177, 92, 0.1), transparent 55%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.92));
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 16px;
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-strong);
 }
 
 .site-footer {
-  background: #0f1b2d;
+  background: radial-gradient(1200px 500px at 20% -10%, rgba(31, 94, 255, 0.24), transparent 60%),
+    linear-gradient(180deg, #0b1220, #0f1b2d);
   color: #ffffff;
   padding: 20px 0;
 }
@@ -401,7 +438,7 @@ h4 {
 
 .footer-name {
   font-family: Nunito, Inter, system-ui, sans-serif;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: -0.02em;
 }
 
@@ -436,3 +473,13 @@ h4 {
     width: 100%;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition: none;
+  }
+  .button:hover {
+    transform: none;
+  }
+}
+
