@@ -1,11 +1,11 @@
 :root {
-  /* Palette A — “Trust Blue + Warm Support” (Premium + modern refresh) */
+  /* Palette A (Trust Blue + Warm Support) */
   --primary: #1f5eff;
   --primary-2: #2b7bff;
   --primary-dark: #1146d6;
   --accent: #ffb15c;
 
-  /* Premium neutral scale */
+  /* Neutral scale */
   --ink: #0b1220;
   --ink-2: #12213a;
   --muted: #334461;
@@ -27,6 +27,11 @@
   /* Radii */
   --radius: 18px;
   --radius-sm: 14px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --fast: 140ms;
+  --med: 260ms;
 
   /* Focus ring */
   --focus: 0 0 0 4px rgba(31, 94, 255, 0.22);
@@ -95,7 +100,7 @@ img {
 
 .brand-name {
   font-family: Nunito, Inter, system-ui, sans-serif;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: -0.02em;
   font-size: 18px;
 }
@@ -125,10 +130,12 @@ img {
   color: var(--ink);
   background: rgba(255, 255, 255, 0.9);
   box-shadow: none;
-  transition: transform 120ms ease, background 120ms ease, border-color 120ms ease, box-shadow 120ms ease;
+  transition: transform var(--fast) var(--ease), background var(--fast) var(--ease), border-color var(--fast) var(--ease),
+    box-shadow var(--fast) var(--ease);
 }
 .button:hover {
   transform: translateY(-1px);
+  box-shadow: 0 12px 26px rgba(11, 18, 32, 0.12);
 }
 .button:active {
   transform: translateY(0px);
@@ -226,6 +233,11 @@ h4 {
   font-weight: 800;
   color: var(--ink-2);
   box-shadow: var(--shadow-sm);
+  transition: transform var(--fast) var(--ease), box-shadow var(--fast) var(--ease);
+}
+.pill:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
 }
 
 .hero-card {
@@ -235,6 +247,11 @@ h4 {
   border-radius: var(--radius);
   padding: 16px;
   box-shadow: var(--shadow-strong);
+  transition: transform var(--med) var(--ease), box-shadow var(--med) var(--ease);
+}
+.hero-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 22px 70px rgba(11, 18, 32, 0.16);
 }
 
 .card-title {
@@ -273,24 +290,11 @@ h4 {
 }
 
 .section {
-  padding: 40px 0;
-}
-
-.family-callout {
-  margin-top: 16px;
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 14px 16px;
-  color: var(--muted);
-  box-shadow: var(--shadow-sm);
-}
-.family-callout strong {
-  color: var(--ink);
+  padding: 34px 0;
 }
 
 .section.alt {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.94));
+  background: rgba(255, 255, 255, 0.92);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
 }
@@ -320,25 +324,36 @@ h4 {
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.92);
+  background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 16px;
   box-shadow: var(--shadow-sm);
+  transition: transform var(--med) var(--ease), box-shadow var(--med) var(--ease), border-color var(--med) var(--ease);
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+  border-color: rgba(31, 94, 255, 0.18);
 }
 
 .price-card {
-  background: radial-gradient(900px 260px at 30% 0%, rgba(31, 94, 255, 0.08), transparent 55%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.92));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.9));
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 16px;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--med) var(--ease), box-shadow var(--med) var(--ease), border-color var(--med) var(--ease);
+}
+.price-card:hover {
+  transform: translateY(-2px);
   box-shadow: var(--shadow);
+  border-color: rgba(31, 94, 255, 0.18);
 }
 
 .price-title {
   font-weight: 900;
-  color: var(--ink-2);
+  color: var(--ink);
   margin-bottom: 8px;
 }
 
@@ -375,13 +390,31 @@ h4 {
   margin-top: 18px;
 }
 
-.faq details {
+.family-callout {
+  margin-top: 16px;
   background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  color: var(--muted);
+  box-shadow: var(--shadow-sm);
+}
+.family-callout strong {
+  color: var(--ink);
+}
+
+.faq details {
+  background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 12px 14px;
   margin-bottom: 10px;
   box-shadow: var(--shadow-sm);
+  transition: transform var(--med) var(--ease), box-shadow var(--med) var(--ease);
+}
+.faq details:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
 }
 
 .faq summary {
@@ -419,6 +452,11 @@ h4 {
   border-radius: var(--radius);
   padding: 16px;
   box-shadow: var(--shadow-strong);
+  transition: transform var(--med) var(--ease), box-shadow var(--med) var(--ease);
+}
+.contact-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 22px 70px rgba(11, 18, 32, 0.16);
 }
 
 .site-footer {
@@ -448,6 +486,18 @@ h4 {
   margin-top: 2px;
 }
 
+/* Scroll reveal */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(14px) scale(0.99);
+  transition: opacity var(--med) var(--ease), transform var(--med) var(--ease);
+  will-change: opacity, transform;
+}
+[data-reveal].is-revealed {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
 @media (max-width: 900px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -475,11 +525,14 @@ h4 {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .button {
-    transition: none;
+  * {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
   }
-  .button:hover {
-    transform: none;
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
 
